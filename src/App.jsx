@@ -17,12 +17,14 @@ function App() {
 
   const setFloorChange = (e) => {
     e.preventDefault();
-    setFloors(parseInt(e.target.value));
+    const value = e.target.value === "" ? "" : parseInt(e.target.value);
+    setFloors(value);
   };
-
+  
   const setLiftChange = (e) => {
     e.preventDefault();
-    setLifts(parseInt(e.target.value));
+    const value = e.target.value === "" ? "" : parseInt(e.target.value);
+    setLifts(value);
   };
 
   const setConfigurations = (e) => {

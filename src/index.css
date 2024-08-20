@@ -156,3 +156,72 @@
   font-size: 16px;
   width: 100px;
 }
+
+
+@media only screen and (max-width: 600px) {
+  #root {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .lift {
+    width: 80px;
+    margin: 0.5rem;
+  }
+
+  .floor {
+    width: 90vw;
+    height: 15vh;
+  }
+
+  .buttons {
+    width: 80px;
+    top: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .modal-content {
+    width: 80%;
+    top: 20%;
+    padding: 15px;
+  }
+
+  .modal-body input {
+    width: 80px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #root {
+    padding: 1.5rem;
+    max-width: 100%;
+  }
+
+  .lift {
+    width: 90px;
+    margin: 0.75rem;
+  }
+
+  .floor {
+    width: 85vw;
+    height: 18vh;
+  }
+
+  .buttons {
+    width: 90px;
+    top: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .modal-content {
+    width: 50%;
+    top: 25%;
+    padding: 18px;
+  }
+
+  .modal-body input {
+    width: 90px;
+  }
+}
